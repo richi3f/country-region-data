@@ -4090,7 +4090,7 @@
     ]
   },
   {
-    "countryName":"Dominican Republic",
+    "countryName":"República Dominicana",
     "countryShortCode":"DO",
     "regions":[
       {
@@ -9695,7 +9695,7 @@
     ]
   },
   {
-    "countryName":"Mexico",
+    "countryName":"México",
     "countryShortCode":"MX",
     "regions":[
       {
@@ -9783,7 +9783,7 @@
         "shortCode":"PUE"
       },
       {
-        "name":"Querétaro de Arteaga",
+        "name":"Querétaro",
         "shortCode":"QUE"
       },
       {
@@ -11635,7 +11635,7 @@
     ]
   },
   {
-    "countryName":"Peru",
+    "countryName":"Perú",
     "countryShortCode":"PE",
     "regions":[
       {
@@ -11643,11 +11643,11 @@
         "shortCode":"AMA"
       },
       {
-        "name":"Ancash",
+        "name":"Áncash",
         "shortCode":"ANC"
       },
       {
-        "name":"Apurimac",
+        "name":"Apurímac",
         "shortCode":"APU"
       },
       {
@@ -11675,7 +11675,7 @@
         "shortCode":"HUV"
       },
       {
-        "name":"Huanuco",
+        "name":"Huánuco",
         "shortCode":"HUC"
       },
       {
@@ -11683,7 +11683,7 @@
         "shortCode":"ICA"
       },
       {
-        "name":"Junin",
+        "name":"Junín",
         "shortCode":"JUN"
       },
       {
@@ -11727,7 +11727,7 @@
         "shortCode":"PUN"
       },
       {
-        "name":"San Martin",
+        "name":"San Martín",
         "shortCode":"SAM"
       },
       {
@@ -14794,7 +14794,7 @@
     ]
   },
   {
-    "countryName":"Spain",
+    "countryName":"España",
     "countryShortCode":"ES",
     "regions":[
       {
