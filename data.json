@@ -4418,7 +4418,7 @@
     ]
   },
   {
-    "countryName":"Equatorial Guinea",
+    "countryName":"Guinea Ecuatorial",
     "countryShortCode":"GQ",
     "regions":[
       {
@@ -5629,7 +5629,7 @@
         "shortCode":"EP"
       },
       {
-        "name":"Francisco Morazan",
+        "name":"Francisco Morazán",
         "shortCode":"FM"
       },
       {
@@ -18072,7 +18072,7 @@
     ]
   },
   {
-    "countryName":"Venezuela, Bolivarian Republic of",
+    "countryName":"Venezuela",
     "countryShortCode":"VE",
     "regions":[
       {
