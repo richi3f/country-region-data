@@ -1,16 +1,13 @@
 ## country-region-data 
 
-[![Build Status](https://travis-ci.org/benkeen/country-region-data.svg?branch=master)](https://travis-ci.org/benkeen/country-region-data)
+*Traducción del repositorio de [benkeen](https://github.com/benkeen)*
 
-This repo contains a static JSON file of country names, country short codes, country regions, and country region short 
-codes. All country names and short codes are guaranteed to be unique. Similarly, all regions and region short
-codes *within a single country* are guaranteed to be unique.
+Este repositorio contiene un archivo JSON estático compuesto por países, sus códigos ISO 3166-2 y sus estados/provincias también con sus códigos ISO 3166-2.
 
-I created this repo to house the raw data used for the [country-region-selector](https://github.com/benkeen/country-region-selector),
-[react-country-region-selector](https://github.com/benkeen/react-country-region-selector) scripts. I didn't want to 
-duplicate it in multiple places and hey, it seemed like this could be useful as a standalone repo.
+Este repositorio fue creado por [benkeen](https://github.com/benkeen) para albergar la información fuente de sus scripts: [country-region-selector](https://github.com/benkeen/country-region-selector) y
+[react-country-region-selector](https://github.com/benkeen/react-country-region-selector).
 
-See the `data.json` file for the data. The JSON is of the form:
+Véase el archivo `data.json` para obtener los datos. El JSON se encuentra de la siguiente forma:
 
 ```javascript
 [
@@ -29,49 +26,37 @@ See the `data.json` file for the data. The JSON is of the form:
 ]
 ```
 
-### Contribute
+### Contribuye
 
-The state/prov abbreviations are not yet complete, so pull requests welcome! Regions that need ISO3166-2 codes can 
-be identified by having a missing `shortCode` property for each region. You can find them by cloning the repo, then 
-running:
+Las abreviaciones de los estados/provincias aún no están completas, ¡por lo que las contribuciones son bienvenidas! Cada estado/provinica que carece de un código ISO 3166-2 puede ser identificado a través de su propiedad `shortCode`. Clona este repositorio y ejecuta:
 
 ```
 npm install
 grunt findIncomplete
 ```
 
-That'll list all countries with regions that are missing region short codes. Wikipedia has a lot of the data listed here:
+Esto enlistará todo país con regiones incompletas. La información faltante se puede encontrar en Wikipedia:
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 
-### Data Validation
+### Valida
 
-Before contributing a PR, please validate the JSON content (if you don't, Travis will catch it for you!). To do that, 
-run the following on your command line:
+Antes de contribuir, valida el contenido JSON. Para esto ejecuta lo siguiente en tu línea de comando:
 
 ```
 npm install
 grunt validate
 ```
 
-That'll throw an error if the JSON is invalid or if some duplicate names were accidentally introduced. The error messages 
-are pretty clear, I think.
+Esto lanzará un error si el JSON es inválido o si existen nombres duplicados que fueron accidentalmente insertados. Los mensajes de error deberían ser muy claros.
 
 
-### Changelog
+### Cambios
 
-- `1.3.3` - Dec 22, 2016. French region fix - thanks [JMartelot](https://github.com/JMartelot)! 
-- `1.3.2` - Oct 31, 2016. Lots more region short codes (thanks again, [ellenhutchings](https://github.com/ellenhutchings)!).
-- `1.3.1` - Sept 23, 2016. Fix for incorrect shortcodes in Japanese prefectures. 
-- `1.3.0` - July 1, 2016. Improved validation added to ensure uniqueness of country names, short codes, region names and 
-shortcodes. Various country region additions / updates.
-- `1.2.1` - Jun 7, 2016. Taiwan country name change. Travis build status added + basic JSON syntax validation. 
-- `1.2.0` - May 14, 2015. Lots more region short codes (again, thanks Ellen!). JSON syntax fixes.
-- `1.1.1` - April 30, 2016. JSON syntax fixes. 
-- `1.1.0` - April 30, 2016. Looooads of new region shortcodes added thanks to [ellenhutchings](https://github.com/ellenhutchings). Thanks, Ellen!
-- `1.0.0` - April 29, 2016. initial version
+- `1.3.7` - 2 de enero de 2017. Traducción del inglés a todos los países y regiones hispanohablantes
+- `1.0.0` - 29 de abril de 2016. Version inicial de [benkeen](https://github.com/benkeen)
 
 
-### License
+### Licencia
 
 MIT.
