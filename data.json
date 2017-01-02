@@ -1660,31 +1660,31 @@
     ]
   },
   {
-    "countryName":"Belize",
+    "countryName":"Belice",
     "countryShortCode":"BZ",
     "regions":[
       {
-        "name":"Belize District",
+        "name":"Belice",
         "shortCode":"BZ"
       },
       {
-        "name":"Cayo District",
+        "name":"Cayo",
         "shortCode":"CY"
       },
       {
-        "name":"Corozal District",
+        "name":"Corozal",
         "shortCode":"CZL"
       },
       {
-        "name":"Orange Walk District",
+        "name":"Orange Walk",
         "shortCode":"OW"
       },
       {
-        "name":"Stann Creek District",
+        "name":"Stann Creek",
         "shortCode":"SC"
       },
       {
-        "name":"Toledo District",
+        "name":"Toledo",
         "shortCode":"TOL"
       }
     ]
@@ -11409,7 +11409,7 @@
     ]
   },
   {
-    "countryName":"Panama",
+    "countryName":"Panamá",
     "countryShortCode":"PA",
     "regions":[
       {
@@ -11581,15 +11581,15 @@
         "shortCode":"ASU"
       },
       {
-        "name":"Caaguazu",
+        "name":"Caaguazú",
         "shortCode":"5"
       },
       {
-        "name":"Caazapa",
+        "name":"Caazapá",
         "shortCode":"6"
       },
       {
-        "name":"Canindeyu",
+        "name":"Canindeyú",
         "shortCode":"14"
       },
       {
@@ -11597,7 +11597,7 @@
         "shortCode":"11"
       },
       {
-        "name":"Concepcion",
+        "name":"Concepción",
         "shortCode":"1"
       },
       {
@@ -11605,11 +11605,11 @@
         "shortCode":"3"
       },
       {
-        "name":"Guaira",
+        "name":"Guairá",
         "shortCode":"4"
       },
       {
-        "name":"Itapua",
+        "name":"Itapúa",
         "shortCode":"7"
       },
       {
@@ -11617,11 +11617,11 @@
         "shortCode":"8"
       },
       {
-        "name":"Neembucu",
+        "name":"Ñeembucú",
         "shortCode":"12"
       },
       {
-        "name":"Paraguari",
+        "name":"Paraguarí",
         "shortCode":"9"
       },
       {
@@ -18076,14 +18076,6 @@
     "countryShortCode":"VE",
     "regions":[
       {
-        "name":"Dependencias Federales",
-        "shortCode":"W"
-      },
-      {
-        "name":"Distrito Federal",
-        "shortCode":"A"
-      },
-      {
         "name":"Amazonas",
         "shortCode":"Z"
       },
@@ -18118,6 +18110,14 @@
       {
         "name":"Delta Amacuro",
         "shortCode":"Y"
+      },
+      {
+        "name":"Dependencias Federales",
+        "shortCode":"W"
+      },
+      {
+        "name":"Distrito Federal",
+        "shortCode":"A"
       },
       {
         "name":"Falcón",
